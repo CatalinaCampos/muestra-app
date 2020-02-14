@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/CatalinaCampos/muestra-app/static/css/main.06a32b52.chunk.css",
+    "main.js": "/CatalinaCampos/muestra-app/static/js/main.4ae13431.chunk.js",
+    "main.js.map": "/CatalinaCampos/muestra-app/static/js/main.4ae13431.chunk.js.map",
+    "runtime-main.js": "/CatalinaCampos/muestra-app/static/js/runtime-main.f1700db4.js",
+    "runtime-main.js.map": "/CatalinaCampos/muestra-app/static/js/runtime-main.f1700db4.js.map",
+    "static/js/2.09bbabc0.chunk.js": "/CatalinaCampos/muestra-app/static/js/2.09bbabc0.chunk.js",
+    "static/js/2.09bbabc0.chunk.js.map": "/CatalinaCampos/muestra-app/static/js/2.09bbabc0.chunk.js.map",
+    "index.html": "/CatalinaCampos/muestra-app/index.html",
+    "precache-manifest.390c9dd192057015776100cc7a8b4c3b.js": "/CatalinaCampos/muestra-app/precache-manifest.390c9dd192057015776100cc7a8b4c3b.js",
+    "service-worker.js": "/CatalinaCampos/muestra-app/service-worker.js",
+    "static/css/main.06a32b52.chunk.css.map": "/CatalinaCampos/muestra-app/static/css/main.06a32b52.chunk.css.map",
+    "static/js/2.09bbabc0.chunk.js.LICENSE.txt": "/CatalinaCampos/muestra-app/static/js/2.09bbabc0.chunk.js.LICENSE.txt",
+    "static/media/code.jpg": "/CatalinaCampos/muestra-app/static/media/code.bf02a760.jpg",
+    "static/media/company.jpg": "/CatalinaCampos/muestra-app/static/media/company.deeabcde.jpg",
+    "static/media/foto4.jpg": "/CatalinaCampos/muestra-app/static/media/foto4.547379c7.jpg",
+    "static/media/meeting.jpg": "/CatalinaCampos/muestra-app/static/media/meeting.4bc33a92.jpg",
+    "static/media/ux.jpg": "/CatalinaCampos/muestra-app/static/media/ux.eff9acc7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1700db4.js",
+    "static/js/2.09bbabc0.chunk.js",
+    "static/css/main.06a32b52.chunk.css",
+    "static/js/main.4ae13431.chunk.js"
+  ]
+}
