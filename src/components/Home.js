@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Jumbotron, Container, Row, Col, Button, Image } from "react-bootstrap";
+import { Jumbotron, Container, Button, Image } from "react-bootstrap";
 import "./Home.css";
 import foto4 from "../assets/foto4.jpg";
 import meeting from "../assets/meeting.jpg";
@@ -97,9 +97,9 @@ class Home extends Component {
         <div className="portfolio">
           <div
             style={{
-              width: "850px",
+              width: "750px",
               display: "flex",
-              justifyContent: "space-evenly",
+              justifyContent: "space-around",
               flexWrap: "wrap"
             }}
           >
@@ -113,16 +113,16 @@ class Home extends Component {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
-              <Button>VIEW PROYECT</Button>
+              <Button className="btn-view">VIEW PROYECT</Button>
             </div>
           </div>
         </div>
         <div className="portfolio">
           <div
             style={{
-              width: "850px",
+              width: "750px",
               display: "flex",
-              justifyContent: "space-evenly",
+              justifyContent: "space-around",
               flexWrap: "wrap"
             }}
           >
@@ -135,7 +135,7 @@ class Home extends Component {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
-              <Button>VIEW PROYECT</Button>
+              <Button className="btn-view">VIEW PROYECT</Button>
             </div>
             <Image src={company} roundedCircle className="portfolio-image" />
           </div>
@@ -143,9 +143,9 @@ class Home extends Component {
         <div className="portfolio">
           <div
             style={{
-              width: "850px",
+              width: "750px",
               display: "flex",
-              justifyContent: "space-evenly",
+              justifyContent: "space-around",
               flexWrap: "wrap"
             }}
           >
@@ -159,11 +159,10 @@ class Home extends Component {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
-              <Button>VIEW PROYECT</Button>
+              <Button className="btn-view">VIEW PROYECT</Button>
             </div>
           </div>
         </div>
-        <footer>ji</footer>
       </Container>
     );
   }

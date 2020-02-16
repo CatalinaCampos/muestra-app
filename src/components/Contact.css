@@ -1,0 +1,70 @@
+.title-contact {
+  background-color: #f8f9fa;
+  padding: 1em;
+  text-align: center;
+  margin: 0;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contact-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form,
+.contact-options {
+  padding: 2em;
+  padding-top: 3em;
+  min-width: 320px;
+  width: 50%;
+}
+
+.contact-options {
+  background-image: url("../assets/map.jpg");
+}
+
+.contact-input > input {
+  width: 100%;
+  margin: 1em 0 0 0;
+  border: 1px solid rgb(219, 218, 218);
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.contact-input > input::placeholder {
+  font-style: oblique;
+}
+
+.submit {
+  margin-top: 3%;
+  float: right;
+  width: 25%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin: 1em;
+}
+
+@media screen and (max-width: 450px) {
+  .contact-form,
+  .contact-options {
+    padding: 1em;
+    width: 100%;
+  }
+
+  .submit {
+    margin-top: 3%;
+    float: right;
+    width: 50%;
+  }
+}
